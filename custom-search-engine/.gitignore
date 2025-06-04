@@ -1,2 +1,37 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Flask instance folder (if you use it)
+instance/
+
+# Environment variables file
+.env
+
+# VS Code settings
+.vscode/
+
+# Mac OS system files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python test cache
+.pytest_cache/
+
+# Other files/folders you don't want to track
+*.bak
+*.swp
